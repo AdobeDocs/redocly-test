@@ -16,7 +16,11 @@ module.exports = {
       {
         title: 'Adobe Analytics',
         path: '/'
-      }
+      },
+      {
+        title: 'Adobe Commerce',
+        path: '/commerce/'
+      },
     ]
   },
   plugins: [`@adobe/gatsby-theme-aio`],
