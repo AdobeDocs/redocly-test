@@ -23,7 +23,7 @@ module.exports = {
       },
       {
         title: 'Creative Cloud API',
-        path: '/creative-cloud/'
+        path: '/cc/'
       }
     ]
   },
