@@ -24,6 +24,10 @@ module.exports = {
       {
         title: 'CC API',
         path: '/cc/'
+      },
+      {
+        title: 'CC API',
+        path: '/cc/'
       }
     ]
   },
