@@ -21,6 +21,10 @@ module.exports = {
         title: 'Adobe Commerce',
         path: '/commerce/'
       },
+      {
+        title: 'Creative Cloud API',
+        path: '/creative-cloud/'
+      }
     ]
   },
   plugins: [`@adobe/gatsby-theme-aio`],
