@@ -18,17 +18,14 @@ module.exports = {
         path: '/'
       },
       {
+        title: 'CC API',
+        path: '/cc/'
+      },
+      {
         title: 'Adobe Commerce',
         path: '/commerce/'
       },
-      {
-        title: 'CC API',
-        path: '/cc/'
-      },
-      {
-        title: 'CC API',
-        path: '/cc/'
-      }
+
     ]
   },
   plugins: [`@adobe/gatsby-theme-aio`],
