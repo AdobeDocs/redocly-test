@@ -14,17 +14,9 @@ module.exports = {
   siteMetadata: {
     pages: [
       {
-        title: 'Adobe Analytics',
+        title: 'Creative Cloud Apis',
         path: '/'
-      },
-      {
-        title: 'CC API',
-        path: '/cc/'
-      },
-      {
-        title: 'Adobe Commerce',
-        path: '/commerce/'
-      },
+      }
 
     ]
   },

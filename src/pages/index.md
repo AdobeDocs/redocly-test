@@ -1,14 +1,7 @@
 ---
 keywords:
-  - Creative Cloud
+  - Creative Cloud API
   - API Documentation
-  - UXP
-  - Plugins
-  - JavaScript
-  - ExtendScript
-  - SDK
-  - C++
-  - Scripting
-title: Adobe Analytics
-frameSrc: https://new-rabbit-19.redoc.ly/
+title: Adobe Creative Cloud API
+frameSrc: https://stupid-snail-43.redoc.ly/
 ---
