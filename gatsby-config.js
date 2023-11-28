@@ -21,5 +21,5 @@ module.exports = {
     ]
   },
   plugins: [`@adobe/gatsby-theme-aio`],
-  pathPrefix: process.env.PATH_PREFIX || '/redocly-test/'
+  pathPrefix: process.env.PATH_PREFIX || '/redocly-test2/'
 };
