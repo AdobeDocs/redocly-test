@@ -16,6 +16,10 @@ module.exports = {
       {
         title: 'Creative Cloud Apis',
         path: '/'
+      },
+      {
+        title: 'Redocly API Block',
+        path: '/redoclyapiblock/'
       }
 
     ]
