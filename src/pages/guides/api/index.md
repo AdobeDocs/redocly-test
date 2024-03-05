@@ -1,1 +1,1 @@
-<RedoclyAPIBlock src="https://developer-stage.adobe.com/shared/openapi/cc_openapi.yaml" width="700px" />
+<RedoclyAPIBlock src="https://developer-stage.adobe.com/shared/openapi/cc_openapi.yaml" width="700px" codeBlock="tokens: { punctuation: { color: 'green' }}"/>
