@@ -18,8 +18,38 @@ module.exports = {
         path: '/'
       },
       {
-        title: 'Redocly API Block',
-        path: '/redoclyapiblock/'
+        title: 'guides',
+        path: '/guides/'
+      }
+    ],
+    subPages: [
+      {
+
+        title: 'Getting Started',
+        path: '/guides/',
+        header: true,
+        pages: [
+          {
+            title: 'Get Credentials',
+            path: '/guides/create-credentials/'
+          },
+          {
+            title: 'Redocly API Block',
+            path: '/guides/api/'
+          },
+          {
+            title: 'Quickstart',
+            path: '/guides/'
+          },
+          {
+            title: 'Authentication',
+            path: '/guides/authentication/'
+          },
+          {
+            title: 'Image Model Styles',
+            path: '/guides/styles/'
+          }
+        ]
       }
 
     ]
