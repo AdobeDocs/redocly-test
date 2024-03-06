@@ -35,7 +35,17 @@ module.exports = {
           },
           {
             title: 'Redocly API Block',
-            path: '/guides/api/'
+            path: '/guides/api/',
+            pages:[
+              {
+                title:'Create a library',
+                path: '#operation/createLibraries'
+              }
+            ]
+          },
+          {
+            title: 'Redocly API Block',
+            path: '/guides/nolayout/'
           },
           {
             title: 'Quickstart',
