@@ -30,8 +30,8 @@ module.exports = {
         header: true,
         pages: [
           {
-            title: 'Get Credentials',
-            path: '/guides/create-credentials/'
+            title: 'Overview',
+            path: '/guides/overview/'
           },
           {
             title: 'Redocly API Block',
