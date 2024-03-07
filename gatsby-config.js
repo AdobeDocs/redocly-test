@@ -48,8 +48,8 @@ module.exports = {
             ]
           },
           {
-            title: 'Redocly API Block',
-            path: '/guides/nolayout/'
+            title: 'Redocly Another API Block',
+            path: '/guides/create-library/'
           },
           {
             title: 'Quickstart',
