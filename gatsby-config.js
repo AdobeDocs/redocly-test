@@ -52,6 +52,10 @@ module.exports = {
             path: '/guides/create-library/'
           },
           {
+            title: 'Redocly JSON Block',
+            path: '/guides/json/'
+          },
+          {
             title: 'Quickstart',
             path: '/guides/'
           },
