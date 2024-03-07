@@ -40,6 +40,10 @@ module.exports = {
               {
                 title:'Create a library',
                 path: '#operation/createLibraries'
+              },
+              {
+                title:'Retrieve a specific library',
+                path: '#operation/getLibrary'
               }
             ]
           },
