@@ -30,45 +30,31 @@ module.exports = {
         header: true,
         pages: [
           {
-            title: 'Overview',
-            path: '/guides/overview/'
-          },
-          {
-            title: 'Redocly API Block',
-            path: '/guides/api/',
-            pages:[
-              {
-                title:'Create a library',
-                path: '#operation/createLibraries'
-              },
-              {
-                title:'Retrieve a specific library',
-                path: '#operation/getLibrary'
-              }
-            ]
-          },
-          {
-            title: 'Redocly Another API Block',
-            path: '/guides/create-library/'
-          },
-          {
-            title: 'Redocly JSON Block',
-            path: '/guides/json/'
-          },
-          {
             title: 'Quickstart',
             path: '/guides/'
           },
           {
             title: 'Authentication',
-            path: '/guides/authentication/'
+            path: '/guides/api/',
+            pages: [
+              {
+                title: "overview",
+                path: "/guides/api/overview"
+              },
+            ]
+          },
+          {
+            title: 'Usage Limits',
+            path: '/guides/usage_limits/'
           },
           {
             title: 'Image Model Styles',
             path: '/guides/styles/'
-          }
+          },
+
         ]
       }
+
 
     ]
   },
