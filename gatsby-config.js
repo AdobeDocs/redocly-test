@@ -34,13 +34,25 @@ module.exports = {
             path: '/guides/'
           },
           {
-            title: 'Authentication',
+            title: 'API',
             path: '/guides/api/',
             pages: [
               {
-                title: "overview",
-                path: "/guides/api/overview"
+                title: "Upload Image",
+                path: "/guides/api/generative_expand"
               },
+              {
+                title: "Text to Image",
+                path: "/guides/api/image_generation"
+              },
+              {
+                title: "Generative Expand",
+                path: "/guides/api/generative_expand"
+              },
+              {
+                title: "Generative Fill",
+                path: "/guides/api/generative_fill"
+              }
             ]
           },
           {

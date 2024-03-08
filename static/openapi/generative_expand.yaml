@@ -1,0 +1,21 @@
+openapi: "3.1.0"
+info:
+  version: "1.0.0"
+  title: Firefly API
+  description: REST API for Adobe Firefly for enterprise usage
+servers:
+  - url: https://firefly-beta.adobe.io
+
+paths:
+  /v1/images/expand:
+    $ref: components/paths/generative_expand.yaml
+
+components:
+  securitySchemes:
+    X-ApiKey:
+      "type": "apiKey"
+      "name": "x-api-key"
+      "in": "header"
+    Access token:
+      "type": "http"
+      "scheme": "bearer"
