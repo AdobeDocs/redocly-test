@@ -20,6 +20,10 @@ module.exports = {
       {
         title: 'guides',
         path: '/guides/'
+      },
+      {
+        title: 'api full page',
+        path: '/api-full/'
       }
     ],
     subPages: [
@@ -52,6 +56,28 @@ module.exports = {
               {
                 title: "Generative Fill",
                 path: "/guides/api/generative_fill"
+              }
+            ]
+          },
+          {
+            title: 'JSON',
+            path: '/guides/json/',
+            pages: [
+              {
+                title: "Upload Image",
+                path: "/guides/json/upload_image"
+              },
+              {
+                title: "Text to Image",
+                path: "/guides/json/image_generation"
+              },
+              {
+                title: "Generative Expand",
+                path: "/guides/json/generative_expand"
+              },
+              {
+                title: "Generative Fill",
+                path: "/guides/json/generative_fill"
               }
             ]
           },
