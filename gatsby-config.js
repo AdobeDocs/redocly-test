@@ -39,7 +39,7 @@ module.exports = {
             pages: [
               {
                 title: "Upload Image",
-                path: "/guides/api/generative_expand"
+                path: "/guides/api/upload_image"
               },
               {
                 title: "Text to Image",
