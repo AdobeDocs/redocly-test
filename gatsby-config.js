@@ -18,9 +18,81 @@ module.exports = {
         path: '/'
       },
       {
-        title: 'Redocly API Block',
-        path: '/redoclyapiblock/'
+        title: 'guides',
+        path: '/guides/'
+      },
+      {
+        title: 'api full page',
+        path: '/api-full/'
       }
+    ],
+    subPages: [
+      {
+
+        title: 'Getting Started',
+        path: '/guides/',
+        header: true,
+        pages: [
+          {
+            title: 'Quickstart',
+            path: '/guides/'
+          },
+          {
+            title: 'API',
+            path: '/guides/api/',
+            pages: [
+              {
+                title: "Upload Image",
+                path: "/guides/api/upload_image"
+              },
+              {
+                title: "Text to Image",
+                path: "/guides/api/image_generation"
+              },
+              {
+                title: "Generative Expand",
+                path: "/guides/api/generative_expand"
+              },
+              {
+                title: "Generative Fill",
+                path: "/guides/api/generative_fill"
+              }
+            ]
+          },
+          {
+            title: 'JSON',
+            path: '/guides/json/',
+            pages: [
+              {
+                title: "Upload Image",
+                path: "/guides/json/upload_image"
+              },
+              {
+                title: "Text to Image",
+                path: "/guides/json/image_generation"
+              },
+              {
+                title: "Generative Expand",
+                path: "/guides/json/generative_expand"
+              },
+              {
+                title: "Generative Fill",
+                path: "/guides/json/generative_fill"
+              }
+            ]
+          },
+          {
+            title: 'Usage Limits',
+            path: '/guides/usage_limits/'
+          },
+          {
+            title: 'Image Model Styles',
+            path: '/guides/styles/'
+          },
+
+        ]
+      }
+
 
     ]
   },
