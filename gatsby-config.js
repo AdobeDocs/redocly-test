@@ -68,8 +68,12 @@ module.exports = {
                 path: "/guides/json/upload_image"
               },
               {
-                title: "Text to Image",
+                title: "Text to Image (default)",
                 path: "/guides/json/image_generation"
+              },
+              {
+                title: "Text to Image (expanded #200)",
+                path: "/guides/json/image_generation_expanded"
               },
               {
                 title: "Generative Expand",
