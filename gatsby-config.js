@@ -29,7 +29,7 @@ module.exports = {
     subPages: [
       {
 
-        title: 'Getting Started',
+        title: 'Getting Started (#201)',
         path: '/guides/',
         header: true,
         pages: [
@@ -64,19 +64,19 @@ module.exports = {
             path: '/guides/json/',
             pages: [
               {
-                title: "Upload Image",
+                title: "Upload Image (no layout: none, no width)",
                 path: "/guides/json/upload_image"
               },
               {
-                title: "Text to Image",
+                title: "Text to Image (width='100%')",
                 path: "/guides/json/image_generation"
               },
               {
-                title: "Generative Expand",
+                title: "Generative Expand (width='300px')",
                 path: "/guides/json/generative_expand"
               },
               {
-                title: "Generative Fill",
+                title: "Generative Fill (width='600px')",
                 path: "/guides/json/generative_fill"
               }
             ]
