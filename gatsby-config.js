@@ -22,7 +22,7 @@ module.exports = {
         path: '/guides/'
       },
       {
-        title: 'api full page #267',
+        title: 'api full page #266',
         path: '/api-full/'
       }
     ],
