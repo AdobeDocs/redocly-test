@@ -7,9 +7,7 @@ layout: none
     width="600px" 
     requestInterceptor="
         function(req, operation) { 
-            // comment 1
-            console.log('Args 285:', req, operation); 
-            // comment 2
+            console.log('Args 286:', req, operation); 
             return req; 
         }
     " 
