@@ -2,4 +2,12 @@
 layout: none
 ---
 
-<RedoclyAPIBlock  src="/redocly-test/openapi/openapi.yaml" requestInterceptor="(req, operation) => ({ console.log('Args:', req, rawOperation); return req; })" />
+<RedoclyAPIBlock 
+    src="/redocly-test/openapi/openapi.yaml" 
+    requestInterceptor="
+        function(req, operation) { 
+            console.log('Args:', req, operation); 
+            return req; 
+        }
+    " 
+/>
