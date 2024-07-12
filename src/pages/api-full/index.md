@@ -2,4 +2,12 @@
 layout: none
 ---
 
-<RedoclyAPIBlock src="https://developer-stage.adobe.com/redocly-test/openapi/openapi.yaml" width="600px" />
+<RedoclyAPIBlock 
+    src="/redocly-test/openapi/openapi.yaml" 
+    requestInterceptor="
+        function(req, operation) { 
+            console.log('Args:', req, operation); 
+            return req; 
+        }
+    " 
+/>
