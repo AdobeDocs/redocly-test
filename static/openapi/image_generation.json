@@ -110,7 +110,7 @@
                   "$ref": "#/components/schemas/ErrorBody"
                 },
                 "example": {
-                  "message": "Payload Too Large. The input image exceeds the allowed limit (currently 10MB).",
+                  "message": "Payload Too Large. The input image exceeds the allowed limit of 10MB.",
                   "error_code": "10011"
                 }
               }
