@@ -57,6 +57,11 @@ module.exports = {
                 title: "Generative Fill",
                 path: "/guides/api/generative_fill"
               }
+              ,
+              {
+                title: "Karen Test",
+                path: "/guides/api/karen_test"
+              }
             ]
           },
           {
