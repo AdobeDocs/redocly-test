@@ -10,4 +10,14 @@ layout: none
             return req; 
         }
     " 
+    tryItOpenEventHandler="
+        function(event) { 
+            console.log('args:', event); 
+        }
+    " 
+    tryItSentEventHandler="
+        function(event) { 
+            console.log('args:', event); 
+        }
+    " 
 />
