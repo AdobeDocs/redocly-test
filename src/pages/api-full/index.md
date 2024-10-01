@@ -12,12 +12,12 @@ layout: none
     " 
     tryItOpenEventHandler="
         function(event) { 
-            console.log('args:', event, _satellite, _satellite.track); 
+            console.log('args:', event); 
         }
     " 
     tryItSentEventHandler="
         function(event) { 
-            console.log('args:', event, _satellite, _satellite.track); 
+            console.log('args:', event); 
         }
     " 
 />
