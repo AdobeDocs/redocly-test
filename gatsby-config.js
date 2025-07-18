@@ -72,7 +72,7 @@ module.exports = {
                 title: "Upload Image",
                 path: "/guides/json/upload_image"
               },
-              {
+              { 
                 title: "Text to Image",
                 path: "/guides/json/image_generation"
               },
