@@ -3,6 +3,7 @@ layout: none
 ---
 
 <RedoclyAPIBlock 
+    hideLoading={false}
     src="/redocly-test/openapi/openapi.yaml" 
     requestInterceptor="
         function(req, operation) { 
