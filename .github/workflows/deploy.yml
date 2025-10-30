@@ -28,6 +28,7 @@
     deployment:
       name: Deployment
       uses: AdobeDocs/adp-devsite-workflow/.github/workflows/gatsby-deploy.yml@gatsby-workflow
+      secrets: inherit
       with:
         env: ${{ inputs.env }}
         clean: ${{ inputs.clean }}
