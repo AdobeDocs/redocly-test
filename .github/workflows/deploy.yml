@@ -26,10 +26,10 @@
             - index
   jobs:
     deployment:
-    name: Deployment
-    uses: AdobeDocs/adp-devsite-workflow/.github/workflows/gatsby-deploy.yml@gatsby-workflow
-    with:
-      env: ${{ inputs.env }}
-      clean: ${{ inputs.clean }}
-      excludeSubfolder: ${{ inputs.excludeSubfolder }}
-      index-mode: ${{ index-mode }}
+      name: Deployment
+      uses: AdobeDocs/adp-devsite-workflow/.github/workflows/gatsby-deploy.yml@gatsby-workflow
+      with:
+        env: ${{ inputs.env }}
+        clean: ${{ inputs.clean }}
+        excludeSubfolder: ${{ inputs.excludeSubfolder }}
+        index-mode: ${{ index-mode }}
