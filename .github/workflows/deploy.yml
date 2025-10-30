@@ -32,4 +32,4 @@
         env: ${{ inputs.env }}
         clean: ${{ inputs.clean }}
         excludeSubfolder: ${{ inputs.excludeSubfolder }}
-        index-mode: ${{ index-mode }}
+        index-mode: ${{ inputs.index-mode }}
