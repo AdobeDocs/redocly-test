@@ -10,20 +10,23 @@ jobs:
         uses: actions/checkout@v3
         with:
           persist-credentials: false
-      
-      - name: Setup Node v20 for Gatsby 4
+      - name: NPM Install
+        uses: bahmutov/npm-install@v1
+
+      - name: Setup Node v20
         uses: actions/setup-node@v3
         with:
-          node-version: '20.19.0'  # Pin to Node 20 LTS for compatibility with Gatsby 4.22.0
+          node-version: '20.19.0'  # Pin to Node 20 LTS
 
-      - name: Enable Corepack for Yarn v3
+      - name: Enable Corepack for Yarn
         run: corepack enable
 
       - name: Install Dependencies
-        run: yarn install
+        run: yarn install --immutable
 
       - name: Build
-        run: yarn build
+        run: |
+          npm run build
         env:
           PREFIX_PATHS: true # equivalent to --prefix-paths flag for 'gatsby build'
           PATH_PREFIX: ${{ github.event.repository.name }}
