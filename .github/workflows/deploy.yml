@@ -24,6 +24,11 @@
           options:
             - console
             - index
+  env:
+    NODE_OPTIONS: "--max-old-space-size=8192"
+    TEMPLATE_ID_DEV: "1234"
+    TEMPLATE_ID_PROD: "5678"
+
   jobs:
     deployment:
       name: Deployment
@@ -34,3 +39,6 @@
         clean: ${{ inputs.clean }}
         excludeSubfolder: ${{ inputs.excludeSubfolder }}
         index-mode: ${{ inputs.index-mode }}
+        NODE_OPTIONS: ${{ env.NODE_OPTIONS }}
+        TEMPLATE_ID_DEV: ${{ env.TEMPLATE_ID_DEV }}
+        TEMPLATE_ID_PROD: ${{ env.TEMPLATE_ID_PROD }}
