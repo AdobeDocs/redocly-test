@@ -15,15 +15,15 @@ module.exports = {
     pages: [
       {
         title: 'Creative Cloud Apis',
-        path: 'index.md'
+        path: '/'
       },
       {
         title: 'guides',
         path: '/guides'
       },
       {
-        title: 'json #425',
-        path: '/guides/json'
+        title: 'api full page #424',
+        path: 'api-full'
       }
     ],
     subPages: [
