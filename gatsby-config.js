@@ -19,11 +19,11 @@ module.exports = {
       },
       {
         title: 'guides',
-        path: '/guides'
+        path: '/guides/'
       },
       {
-        title: 'api full page #424',
-        path: 'api-full'
+        title: 'api full page #423',
+        path: '/api-full/'
       }
     ],
     subPages: [
