@@ -2,25 +2,25 @@ Nested 0
 
 <InlineNestedAlert variant="info" header="true" iconPosition="right">
 
-   Personal Information :
+  Personal Information :
 
-   Lorem ipsum dolor sit amee
+  Lorem ipsum dolor sit amee
 
-   Add more information
+  Add more information
 
-   Lorem ipsum dolor sit amet
+  Lorem ipsum dolor sit amet
 
- </InlineNestedAlert>
+</InlineNestedAlert>
 
 
 1. Nested 1
-    <InlineNestedAlert variant="info" header="true" iconPosition="left">
-        Title
-        header="true"
-    </InlineNestedAlert>
+  <InlineNestedAlert variant="info" header="true" iconPosition="left">
+    Title
+    header="true"
+  </InlineNestedAlert>
 
+2. Lorem ipsum dolor sit amee
   - Nested 2
-        <InlineNestedAlert variant="info" header="false" iconPosition="left">
-        Title
-        header="false"
-        </InlineNestedAlert>
+      <InlineNestedAlert variant="info" header="false" iconPosition="left">
+      header="false"
+      </InlineNestedAlert>

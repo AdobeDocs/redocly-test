@@ -26,9 +26,11 @@ This is an inline alert with the variant `warning`.
 
 This is an inline alert with the variant `neutral`.
 
-<InlineAlert variant="help" slots="header, text1, text2, text3, text4" />
+<InlineAlert variant="help" slots="header, text0, text1, text2, text3, text4" />
 
 Header:
+
+`slots="header, text0, text1, text2, text3, text4"`
 
 **Step 1:** This is faux step text for the `text1` slot.
 This is faux step text for the `text1` slot.
@@ -45,9 +47,11 @@ This is faux step text for the `text2` slot.
 **Step 4:** This is faux step text for the `text4` slot.
 This is faux step text for the `text3` slot.
 
-<InlineAlert variant="help" slots="title, text1, text2, text3, text4" />
+<InlineAlert variant="help" slots="title, text0, text1, text2, text3, text4" />
 
 Title:
+
+`slots="title, text0, text1, text2, text3, text4"`
 
 **Step 1:** This is faux step text for the `text1` slot.
 This is faux step text for the `text1` slot.
