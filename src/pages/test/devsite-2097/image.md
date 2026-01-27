@@ -1,0 +1,1 @@
+![Horse](../../images/example_horse.jpeg)
